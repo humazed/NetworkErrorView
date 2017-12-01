@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ErrorViewStyle">
+        <attr name="nev_style" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ErrorView">
+        <attr name="nev_message" format="string"/>
+        <attr name="nev_messageColor" format="color"/>
+        <attr name="nev_imageTint" format="color"/>
+        <attr name="nev_retryText" format="string"/>
+        <attr name="nev_retryBackground" format="reference"/>
+        <attr name="nev_retryColor" format="color"/>
+    </declare-styleable>
+</resources>
