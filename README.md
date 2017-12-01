@@ -1,5 +1,4 @@
 # NetworkErrorView
 A custom view for displaying a beautiful network error view.
 
-
-![Alt text](screenshots/1.gif?raw=true )
+![Alt text](screenShots/1.gif?raw=true "Optional Title")
