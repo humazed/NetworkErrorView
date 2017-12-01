@@ -70,7 +70,7 @@ public class NetworkErrorView extends LinearLayout {
 
         int imageTint;
 
-        String nessage;
+        String message;
         int messageColor;
 
         String retryText;
@@ -78,7 +78,7 @@ public class NetworkErrorView extends LinearLayout {
         int retryColor;
 
         try {
-            nessage = a.getString(R.styleable.ErrorView_nev_message);
+            message = a.getString(R.styleable.ErrorView_nev_message);
             messageColor = a.getColor(R.styleable.ErrorView_nev_messageColor, -1);
             imageTint = a.getColor(R.styleable.ErrorView_nev_imageTint, -1);
             retryBackground = a.getResourceId(R.styleable.ErrorView_nev_retryBackground, -1);
@@ -87,7 +87,7 @@ public class NetworkErrorView extends LinearLayout {
 
             if (imageTint != -1) setImageTint(imageTint);
 
-            if (nessage != null) setMessage(nessage);
+            if (message != null) setMessage(message);
 
             if (retryText != null) retryButton.setText(retryText);
             if (messageColor != -1) messageTextView.setTextColor(messageColor);
