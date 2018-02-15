@@ -51,7 +51,7 @@ Add the dependency
 ```gradle
 dependencies {
     // ... other dependencies
-    implementation 'com.github.humazed:NetworkErrorView:1.0'
+    implementation 'com.github.humazed:NetworkErrorView:1.0.1'
 }
 ```
 -----
