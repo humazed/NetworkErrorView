@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:nev_message="Sorry con't connect to the server :("
+        app:nev_message="Sorry can't connect to the server :("
         tools:visibility="visible"/>
 
     <Button
