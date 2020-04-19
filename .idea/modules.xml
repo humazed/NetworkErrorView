@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NetworkErrorView.iml" filepath="$PROJECT_DIR$/NetworkErrorView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/NetworkErrorView-app.iml" filepath="$PROJECT_DIR$/app/NetworkErrorView-app.iml" group="NetworkErrorView/app" />
+      <module fileurl="file://$PROJECT_DIR$/library/NetworkErrorView-library.iml" filepath="$PROJECT_DIR$/library/NetworkErrorView-library.iml" group="NetworkErrorView/library" />
+      <module fileurl="file://$PROJECT_DIR$/OpenSource-NetworkErrorView.iml" filepath="$PROJECT_DIR$/OpenSource-NetworkErrorView.iml" group="NetworkErrorView" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>

@@ -19,7 +19,6 @@ package humazed.github.com;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.PorterDuff;
-import android.support.graphics.drawable.AnimatedVectorDrawableCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -28,6 +27,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat;
 
 import humazed.github.com.library.R;
 

@@ -8,7 +8,7 @@
     tools:orientation="vertical"
     tools:parentTag="android.widget.LinearLayout">
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/error_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
         android:focusable="true"
         tools:src="@drawable/avd_no_connection"/>
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/error_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         android:gravity="center"
         tools:text="Something went wrong :("/>
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/retry_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
